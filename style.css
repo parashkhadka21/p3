@@ -4,109 +4,179 @@
 }
 
 header{
-    padding: 0;
-    height:300px;
-    border: 1px solid black;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    background-color: rgb(221, 143, 17);
-   
-}
-.back1{
-    left: 0;
-    margin: 0px;
-    padding: 0px;
-    border: 2px solid black;
-    height: 300px;
-    width: 950px;
-    justify-content: space-around;
-    background-color: rgb(40, 40, 32);
-    /* position: absolute; */
-}
-.about{
-    border: 1px solid black;
-    height: 300px;
-    display:flex;
-    justify-content:space-evenly;
-    align-items: center;
-    background-color: rgb(40, 40, 32);
-    text-decoration: none;
-}
-
-div a{
-    text-decoration: none;
-    color: rgb(224, 136, 13);
-    border: 1px solid orange;
-    /* padding:5px; */
-}
-
-.img{
-    position: absolute;
-    left: 190px;
-    top:350px;
-    
-}
-
-.article1{
-
-}
-
-
-
-
-
-
-.abc{
-
-    /* width: 80px; */
+    border: 2px solid aqua;
+    width:100vw;
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* text-align: center; */
-    /* padding: 200px; */
-   
+    height: 50vh;
+    justify-content:center;
+    align-content: center;
+
 }
 
 .intro{
-    padding:50px;
-    text-align: center;
-    justify-content:space-evenly;
-    justify-content: center;
+    /* border: 2px solid red; */
+    width: 70vw;
+    background-color: black;
     color: white;
-   
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
 
+.back2{
+    /* border: 2px solid green; */
+    background-color: orangered;
+    display: flex;
+    width:30%;
+    /* align-items: end; */
+}
+.back1{
+    /* border: 3px solid red; */
+    width:100vw;
+    display: flex;
+    justify-content: center;
+   
 }
 
 .image{
-    border: 1px solid black;
-    height:200px;
-    width: 200px;
+    position: absolute;
+    /* position: fixed; */
+    top: 50px;
+    left: 60vw;
+    /* left: 60vw;
+    top: 7vh; */
+}
+.intro a{
+    color: orange;
+    text-decoration: none;
+    border: 1px solid orange;
+}
+.intro h1{
+    color: orange;
+}
+
+section{
+    border: 2px solid aqua;
+    width:100vw;
+    height: 50vh;
+    background-color: black;
     display: flex;
-    position: absolute; 
-    padding-left: 850px;
-    
+    justify-content:center;
+    align-content: center;
+    justify-content: space-evenly;
 }
 
-.extra{
-    border: 4px solid orange;
-    height: 150px;
+.about{
+   color: white;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   justify-content: space-between;
+   gap:20px;
+}
+
+.frame{
+    border:4px solid orange;
     width: 150px;
-
+    height: 150px;
+    display: flex;
+    position: absolute;
+    left: 200px;
 }
 
-div h1{
-    color:orange;
+.img{
+    display: flex;
+    position: relative;
+    height: 200px;
+    left:0px;
+}
+
+.about1{
+    display: flex;
+    flex-direction:column ;
+    justify-content: baseline;
+    align-items: baseline;
+
+   
+}
+
+.button1 a{
+    color: orange;
+    border: 1px solid orange;
+    text-decoration: none;
 }
 
 section2{
-    border: 2px solid black;
+   border: 2px solid aqua;
+    width:100vw;
+    height: 80vh;
+    /* margin: 0; */
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex: wrap;
+}
+
+
+div2{
+    /* border: 2px solid blue; */
+    height: 80vw;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(40, 40, 32);
+    justify-content: center;
+    align-content: center;
+   
+    /* align-content: center; */
+    gap:20px;
 }
 article1{
-    border: 2px solid black;
-    height:400px;
+    display: flex;
+    flex-direction: column;
+    border:2px solid rebeccapurple;
+    color: white;
+    height: 180px;
+    justify-content: center;
+    align-content: center;
+    background-color: aqua;
+    width: 40vw;
+}
+article2{
+    display: flex;
+    flex-direction: column;
+    border:2px solid rebeccapurple;
+    color: white;
+    height: 180px;
+    width:40vw;
+    justify-content: center;
+    align-content: center;
+    background-color: yellow;
+
+}
+article3{
+    display: flex;
+    flex-direction: column;
+    border:2px solid rebeccapurple;
+    color: white;
+    height: 180px;
+    width:40vw;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+}
+article4{
+    display: flex;
+    flex-direction: column;
+    border:2px solid rebeccapurple;
+     color: white;
+    height: 180px;
+    width:40vw;
+    justify-content: center;
+    align-content: center;
+    background-color: greenyellow;
 }
